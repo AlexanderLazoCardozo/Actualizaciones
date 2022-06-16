@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100%;
   height: 70px;
   background-color: white;
+  z-index: 1000;
+
 `;
 
 export const Wrapper = styled.div`
@@ -28,12 +30,12 @@ export const IconContainer = styled.div`
 
 export const Menu = styled.ul`
 margin:0;
-z-index: 999;
+z-index: 1000;
 paddingLeft: 100px;
   height: 100%;
   display: flex;
   justify-content: space-between;
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1118px) {
     position: absolute;
     top: 70px;
     left: ${({ showMobileMenu }) => (showMobileMenu ? "0" : "-100%")};
@@ -50,7 +52,7 @@ paddingLeft: 100px;
 
 export const MenuItem = styled.li`
   margin:0;
-  z-index: 999;
+  z-index: 1000;
   cursor: pointer;
   height: 100%;
   display: flex;
@@ -75,7 +77,7 @@ export const MenuItem = styled.li`
       box-shadow: 1px -10px 20px  #B886D9;
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1118px) {
     width: 100%;
     height: 70px;
   }
@@ -93,7 +95,7 @@ export const MenuItemLink = styled.a`
 
 export const MobileMenuIcon = styled.div`
   display: none;
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1118px) {
     display: flex;
     margin-right: 0.5rem;
     svg {

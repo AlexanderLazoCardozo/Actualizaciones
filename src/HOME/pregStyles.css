@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#preg {
+  height: 170px;
+}
+
+#soluciones{
+  color: #00277C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 29px;
+  line-height: 1;
+}
+
+#frecu {
+  font-family: 'Poppins';
+  line-height: 1;
+}
+
+#pingLat{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  font-size: 18px;
+  color:#00277C;
+
+}
+
+#preguntasF{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#372C70;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+#preguntasF2{
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+  font-size: 18px;
+}
+
+#botonInfo{
+  width:250px;
+  margin: 10px 70px;
+}
+#botonInfo:hover{
+  cursor:pointer; cursor: hand
+}

@@ -1,0 +1,98 @@
+.contenedor {
+    height: 1100px;
+}
+
+.datosC{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.datosP{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.datosR{
+    border: 1px solid black;
+}
+
+.cabecera{
+    background-color: rgb(163, 163, 163);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.filas{
+    display: flex;
+    margin: 20px 10px;
+}
+
+.tipoDoc{
+    margin: 20px;
+}
+
+.tipoPost{
+    margin: 5px 10px;
+    width: 100%;
+}
+
+.filasF{
+    display: flex;
+    margin: 15px 0px;
+}
+
+.col{
+    width: 100%;
+    margin-left: 3%;
+}
+
+
+.cabeceraExt{
+    background-color: rgb(163, 163, 163);
+    padding: 5px;
+    width: 220px;
+    text-align: center;
+}
+
+.detallesS{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.observacionesS{
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.declaracion{
+    text-align: center;
+}
+
+.firmaF{
+    float: right;
+    border-top: 2px solid black;
+    width: 400px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.descargar {
+    width: 150px;
+    height: 50px;
+    background-color: #704fca;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.descargar:hover{
+    background-color: rgb(89, 22, 151);
+}
+
+.icono {
+    color: rgb(142, 222, 22);
+}
